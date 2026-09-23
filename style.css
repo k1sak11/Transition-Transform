@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #d8b4fe, #f0abfc);
+    color: #302040;
+}
+
+.title {
+    border: 1px solid #8e24aa;
+    padding: 10px;
+    margin: 20px;
+    background-color: #c084fc;
+    color: white;
+    border-radius: 10px;
+}
+
+.title h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+.title2 {
+    border: 1px solid #8e24aa;
+    padding: 10px;
+    margin: 20px;
+    background-color: #e879f9;
+    border-radius: 10px;
+}
+
+.title2 h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+.box {
+    border: 1px solid #8e24aa;
+    height: 250px;
+    background-color: #fff5ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+/* TRANSLATE BOX */
+.container {
+    padding: 10px;
+    margin: 30px;
+    background-color: #c026d3;
+    height: 160px;
+    width: 160px;
+    font-style: italic;
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 1s;
+}
+
+.container:hover {
+    transform: translate(60px, 30px) skew(20deg, 10deg) scale(1.2);
+    background-color: #f472b6;
+}
+
+/* ROTATE BOX */
+.rotate {
+    padding: 10px;
+    margin: 30px;
+    background-color: #9333ea;
+    height: 160px;
+    width: 160px;
+    font-style: italic;
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.5s;
+}
+
+.rotate:hover {
+    transform: rotate(360deg) skew(30deg, 20deg) scale(1.2);
+    background-color: #ec4899;
+}
+
+/* SCALE BOX */
+.scale {
+    padding: 10px;
+    margin: 30px;
+    background-color: #a855f7;
+    height: 160px;
+    width: 160px;
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.5s;
+}
+
+.scale:hover {
+    transform: scale(1.5);
+    background-color: #d946ef;
+}
+
+/* SKEW BOX */
+.skew {
+    padding: 10px;
+    margin: 30px;
+    background-color: #c026d3;
+    height: 160px;
+    width: 160px;
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.5s;
+}
+
+.skew:hover {
+    transform: skew(25deg, 10deg);
+    background-color: #f43f5e;
+}
+
+/* BUTTONS */
+button {
+    margin: 30px 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #9333ea;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ec4899;
+    transform: scale(1.1);
+}
